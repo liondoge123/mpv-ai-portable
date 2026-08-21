@@ -1,0 +1,43 @@
+# 本目录同时保存本机便携运行环境；GitHub 仓库只提交说明、源码和构建材料。
+# 完整运行包请放在 GitHub Releases，不要提交到 Git 仓库。
+
+/发布包/
+/GitHub发布/
+/mpv/
+/Lib/
+/Scripts/
+/tools/
+/vs-coreplugins/
+/vs-plugins/
+/vsgenstubs4/
+/portable_config/
+/portable_config-configzip-backup/
+/installer/
+/doc/
+
+/*.7z
+/*.7z.*
+/*.zip
+/*.sha256
+/*.exe
+/*.dll
+/*.pyd
+/*.bin
+/*.onnx
+/*.engine
+/*.pyc
+/*.log
+
+# 本机 Python/VapourSynth/TensorRT 缓存
+**/__pycache__/
+**/*.engine.cache
+**/trt_*.engine
+
+# 保留项目入口源码和文档
+!MPV-GUI.cs
+!构建-发布包.ps1
+!README.MD
+!docs/
+!docs/**
+!LICENSE.MD
+!LICENSE.txt
