@@ -11,7 +11,9 @@
 推荐附件：
 
 - `MPV-AI-Portable-v1.0.8.7z.001`
-- `MPV-AI-Portable-v1.0.8.7z.002`（如果生成）
+- `MPV-AI-Portable-v1.0.8.7z.002`
+- `MPV-AI-Portable-v1.0.8.7z.003`
+- `MPV-AI-Portable-v1.0.8.7z.004`
 - `MPV-AI-Portable-v1.0.8.sha256.txt`
 
 下载者必须下载全部分卷，然后用 7-Zip 打开 `.7z.001` 解压。分卷缺少任何一个都无法解压。
