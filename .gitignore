@@ -11,6 +11,7 @@
 /vs-plugins/
 /vsgenstubs4/
 /portable_config/
+/portable.vs
 /portable_config-configzip-backup/
 /installer/
 /doc/
@@ -20,12 +21,15 @@
 /*.zip
 /*.sha256
 /*.exe
+/*.com
 /*.dll
 /*.pyd
 /*.bin
 /*.onnx
 /*.engine
 /*.pyc
+/*.cat
+/*._pth
 /*.log
 
 # 本机 Python/VapourSynth/TensorRT 缓存
